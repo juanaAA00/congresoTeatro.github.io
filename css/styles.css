@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);;
+    padding: 20px;
+    text-align: center;
+    border: solid 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    background:linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+section#inicio {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+button {
+    background-color: #6a11cb;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#eventos {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.evento {
+    display: flex;         /* Establece este contenedor como un Flexbox */
+    align-items: center;   /* Alinea verticalmente los elementos al centro */
+    justify-content: space-between; /* Distribuye el espacio entre y alrededor de los elementos */
+    background-color: rgba(255, 255, 255, 0.5); /* Blanco con transparencia */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: larger;
+}
+
+.evento p {
+    flex: 1;               
+    margin-right: 20px;    /* Añade un margen a la derecha para separar texto de la imagen */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra negra para mejorar contraste */
+}
+
+.evento img {
+    width: 30%;          
+    height: auto
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#eventos {
+    background-image: url('/imagenes/fondo.jpeg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: none; 
+    padding: 20px; 
+}
+#eventos p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+}
+#eventos p {
+    background-color: none; 
+    padding: 10px; 
+    border-radius: 8px; 
+}
+
+.evento {
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+
+.evento p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra negra para mejorar contraste */
+}
+#inicio {
+    display: flex;         /* Establece el Flexbox */
+    align-items: center;   /* Alinea los elementos verticalmente al centro */
+    justify-content: flex-start; /* Alinea los elementos horizontalmente al inicio */
+    text-align: left;      /* Alinea el texto a la izquierda dentro de su contenedor */
+    padding: 20px;
+}
+
+#inicio h2, #inicio h3, #inicio button {
+    margin-right: 20px;    /* Añade espacio entre los textos y la imagen */
+}
+
+#inicio img {
+    width: 42%;            /* Mantiene el ancho de la imagen como lo especificaste */
+    height: auto;          /* Mantiene la proporción de la imagen automáticamente */
+}
